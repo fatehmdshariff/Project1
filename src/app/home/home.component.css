@@ -1,0 +1,112 @@
+/* home.component.css */
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f4f6f7; /* Very light gray background */
+    margin: 0;
+    padding: 0;
+  }
+  
+  .home-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 20px;
+    font-family: 'Poppins', sans-serif;
+    background-color: #f4f6f7;
+    color: #2c3e50; /* Dark blue font color */
+    min-height: 100vh;
+  }
+  
+  .app-header {
+    margin-bottom: 30px;
+  }
+  
+  .welcome-message {
+    font-size: 1.5rem;
+    color: #2c3e50; /* Dark blue color */
+    margin: 0;
+    padding: 0;
+    font-weight: 400;
+  }
+  
+  .app-header h1 {
+    font-size: 3rem;
+    color: #2c3e50; /* Dark blue color */
+    font-weight: 600;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+    margin: 5px 0 0 0;
+  }
+  
+  .video-section {
+    margin-bottom: 30px;
+    width: 100%;
+    max-width: 600px;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  }
+  
+  .intro-video {
+    width: 100%;
+    border: none;
+  }
+  
+  .about-section {
+    max-width: 600px;
+    margin: 20px 0;
+    font-size: 1.2rem;
+    line-height: 1.6;
+    color: #2c3e50; /* Dark blue font color */
+    padding: 20px;
+    background-color: #5f94ba; /* Darker pastel blue background */
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, background-color 0.3s;
+  }
+  
+  .about-section:hover {
+    transform: translateY(-5px);
+    background-color: #6dc8dc; /* Darker pastel pink on hover */
+  }
+  
+  .question-section {
+    margin-top: 40px;
+  }
+  
+  .question-section p {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+    color: #2c3e50; /* Dark blue font color */
+  }
+  
+  .btn-choice {
+    background-color: #a26ac0; 
+    border: none;
+    color: #f0eded; 
+    padding: 15px 30px;
+    margin: 0 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1rem;
+    border-radius: 5px;
+    transition: background-color 0.3s, transform 0.3s;
+    cursor: pointer;
+    font-weight: 600;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .btn-choice:hover {
+    background-color: #bf90cb; /* Lighter yellow on hover */
+    transform: translateY(-3px);
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+  }
+  
+  .btn-choice:active {
+    background-color: #f7c16e; /* Darker yellow when clicked */
+    transform: translateY(0);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
